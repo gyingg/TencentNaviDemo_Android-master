@@ -16,7 +16,6 @@ public class SetNaviModeActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         naviMode = findViewById(R.id.navi_mode);
-
         naviMode.setVisibility(View.VISIBLE);
         naviMode.setOnCheckedChangeListener((group, id)->{
             switch (id){
